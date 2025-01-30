@@ -1,5 +1,11 @@
+@import url("./vendor/normalize.css");
+@import url("./vendor/fonts/roboto-slab.css");
+@import url("./vendor/fonts/roboto.css");
+@import url("./vendor/fonts/inter.css");
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", serif, "Inter", system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -25,9 +31,9 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  /* place-items: center; */
   min-width: 320px;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 h1 {

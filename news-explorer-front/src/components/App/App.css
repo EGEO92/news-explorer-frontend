@@ -1,8 +1,18 @@
+.hidden {
+  visibility: hidden;
+}
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0;
+  /* padding: 2rem; */
   text-align: center;
+  color: white;
+}
+
+.app__wraper {
+  width: 100%;
 }
 
 .logo {

@@ -1,0 +1,97 @@
+.header {
+  width: 100%;
+  height: 80px;
+  margin-top: 0;
+  padding-top: 0;
+  position: relative;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d1d2d6;
+  background-color: transparent;
+}
+
+.header__wraper {
+  display: flex;
+  width: fit-content;
+}
+
+.header__tittle {
+  margin-left: 104px;
+  font-family: "Roboto Slab";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.header__text {
+  margin: auto 45px;
+  font-family: "Roboto Slab";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  /* height: 80px;
+  border-bottom: #fff solid 3px;
+  align-content: center; */
+}
+
+.header__selected {
+  height: 80px;
+  border-bottom: #fff solid 3px;
+  align-content: center;
+}
+
+.header__selected-user {
+  width: fit-content;
+  height: 80px;
+  border-bottom: #000 solid 3px;
+  align-content: center;
+}
+
+.header__btn {
+  margin-right: 104px;
+  width: 176px;
+  height: 48px;
+  border-radius: 50px;
+  background-color: transparent;
+  border: solid 1px #fff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.header__btn-user {
+  border: solid 1px #000;
+  color: #000;
+  display: flex;
+}
+
+.header__link {
+  color: inherit;
+}
+
+@media screen and (max-width: 1260px) {
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 1131px) {
+}
+
+@media screen and (max-width: 956px) {
+  .header__tittle {
+    margin-left: 40px;
+  }
+  .header__text {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 806px) {
+}

@@ -1,5 +1,4 @@
 import React from "react";
-import "./PopupLogin.css";
 import PopupWithform from "../PopupWithForm/PopupWithform.jsx";
 
 function PopupLogin(props) {

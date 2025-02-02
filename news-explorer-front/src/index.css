@@ -4,8 +4,8 @@
 @import url("./vendor/fonts/inter.css");
 
 :root {
-  font-family: "Roboto Slab", serif, "Inter", system-ui, Avenir, Helvetica, Arial,
-    sans-serif;
+  font-family: "Roboto Slab", serif, "Inter", system-ui, Avenir, Helvetica,
+    Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 

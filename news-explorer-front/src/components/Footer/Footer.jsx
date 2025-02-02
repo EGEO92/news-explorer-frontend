@@ -15,7 +15,6 @@ function Footer() {
       setIsSvdNews(false);
     }
   }, [location.pathname]);
-  //footer__svd-news
   return (
     <footer className={`footer ${isSvdNews ? "footer__svd-news" : ""}`}>
       <p className="footer__text">&copy; 2024 EGEO92</p>

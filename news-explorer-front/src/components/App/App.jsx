@@ -12,8 +12,7 @@ function App() {
   const [isOpen, setIsOpen] = useState(false);
   const [name, setName] = useState("EGEO92");
   const [isLoginPop, setIsLoginPop] = useState(true);
-
-  console.log(typeof innerHeight, innerWidth, outerHeight, outerWidth);
+  const [isMenuOpenMobile, setIsMenuOpenMobile] = useState(false);
 
   function signIn() {
     setLoggedIn(true);
@@ -41,6 +40,14 @@ function App() {
     }
     if (!isLoginPop) {
       setIsLoginPop(true);
+    }
+  }
+
+  function handleMobileMenu() {
+    if (isMenuOpenMobile) {
+      setIsMenuOpenMobile(false);
+    } else {
+      setIsMenuOpenMobile(true);
     }
   }
 

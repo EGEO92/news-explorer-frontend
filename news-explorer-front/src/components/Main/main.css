@@ -64,6 +64,9 @@
   border-radius: 50px;
   align-content: center;
   text-align: center;
+  border: none;
+  border-style: none;
+  color: #fff;
 }
 
 .main__span:hover {
@@ -79,11 +82,37 @@
     height: fit-content;
   }
   .main__wraper {
+    margin: 30px 19px 16px 32px;
+    margin-top: 30px;
+    margin-left: 19px;
+    margin-right: 16px;
     margin-bottom: 0;
-    padding-bottom: 50px;
+    padding-bottom: 32px;
     height: fit-content;
   }
   .main__form {
+    width: calc(100% - 32px);
+    display: flex;
+    flex-direction: column;
+    height: 128px;
+    gap: 16px;
+    background-color: transparent;
+  }
+  .main__tittle {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .main__text {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .main__search {
+    padding: 0;
+    height: 56px;
+  }
+  .main__span {
+    padding: 0;
+    height: 56px;
     width: 100%;
   }
 }

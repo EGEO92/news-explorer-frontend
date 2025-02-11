@@ -72,3 +72,25 @@
     max-height: 232px;
   }
 }
+
+@media screen and (max-width: 650px) {
+  .about {
+    flex-direction: column;
+  }
+  .about__img {
+    margin: 32px 0 0 0;
+    max-width: 272px;
+    max-height: 272px;
+    object-fit: cover;
+  }
+  .about__tittle {
+    font-size: 30px;
+    line-height: 40px;
+    margin-left: 16px;
+  }
+  .about__text {
+    margin-left: 16px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

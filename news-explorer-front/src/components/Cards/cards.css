@@ -170,3 +170,41 @@
     height: 150px;
   }
 }
+
+@media screen and (max-width: 650px) {
+  .card {
+    width: 288px;
+    height: fit-content;
+  }
+  .card__img {
+    height: 196px;
+  }
+  .card__date {
+    font-size: 18px;
+    line-height: 24px;
+    width: 256px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+  }
+  .card__tittle {
+    font-size: 22px;
+    line-height: 24px;
+    width: 256px;
+    margin-top: 10px;
+    margin-bottom: 14px;
+  }
+  .card_description {
+    font-size: 16px;
+    line-height: 22px;
+    width: 256px;
+    margin-top: 14px;
+    margin-bottom: 8px;
+  }
+  .card__source {
+    font-size: 16px;
+    line-height: 20px;
+    width: 256px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+  }
+}

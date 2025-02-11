@@ -93,5 +93,19 @@
   }
 }
 
-@media screen and (max-width: 806px) {
+@media screen and (max-width: 600px) {
+  .header {
+    height: 56px;
+  }
+
+  .header__tittle {
+    margin: 0;
+    text-align: left;
+    position: relative;
+    left: 16px;
+    font-family: "Roboto Slab";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+  }
 }

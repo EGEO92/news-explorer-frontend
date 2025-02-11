@@ -35,3 +35,12 @@
   font-style: none;
   color: black;
 }
+
+@media screen and (max-width: 600px) {
+  .footer {
+    flex-direction: column-reverse;
+  }
+  .footer__contact {
+    justify-content: center;
+  }
+}

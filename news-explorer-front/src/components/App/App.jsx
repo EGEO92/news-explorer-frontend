@@ -8,11 +8,11 @@ import SavedNews from "../SavedNews/SavedNews.jsx";
 import PopupRegister from "../PopupRegister/PopupRegister.jsx";
 
 function App() {
-  const [loggedIn, setLoggedIn] = useState(false);
+  const [loggedIn, setLoggedIn] = useState(true);
   const [isOpen, setIsOpen] = useState(false);
   const [name, setName] = useState("EGEO92");
   const [isLoginPop, setIsLoginPop] = useState(true);
-  const [isMenuOpenMobile, setIsMenuOpenMobile] = useState(false);
+  //const [isMenuOpenMobile, setIsMenuOpenMobile] = useState(false);
 
   function signIn() {
     setLoggedIn(true);

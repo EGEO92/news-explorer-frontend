@@ -57,9 +57,13 @@ function Main(props) {
               placeholder="Introduce un tema"
               className="main__search"
             ></input>
-            <span className="main__span" onClick={handleSearchButton}>
+            <button
+              type="submit"
+              className="main__span"
+              onClick={handleSearchButton}
+            >
               Buscar
-            </span>
+            </button>
           </form>
         </div>
       </main>
